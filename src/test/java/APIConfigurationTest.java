@@ -1,8 +1,9 @@
+import config.APITestConfig;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class APITest {
+public class APIConfigurationTest {
     private APITestConfig config = new APITestConfig();
     @Test
     void simpleAPITest(){

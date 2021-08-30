@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     testImplementation(
+            'com.codeborne:selenide:5.23.3',
             'org.junit.jupiter:junit-jupiter-api:5.7.2',
             'org.seleniumhq.selenium:selenium-java:3.141.59',
             'org.aeonbits.owner:owner:1.0.12',
